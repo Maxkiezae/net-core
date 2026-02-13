@@ -1,0 +1,9 @@
+namespace NetCoreBackend.Domain.Entities
+{
+    public class AccountEntity
+    {
+        public Guid AccountId { get; set; }
+        public string Username { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+    }
+}
